@@ -1,0 +1,64 @@
+@charset "UTF-8"; 
+*{  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-image: linear-gradient(to left,   #BCC5CE ,#7A7067);
+}
+main{
+    background-color: #e6dfd983;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #394746b4 ;
+}
+h1{
+    color: #7A7067;
+    text-align: center;
+    text-shadow: 2px 2px 2px #343f41b7;
+}
+h2{
+    color:#729599 ;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+
+video{
+    padding: 20px;
+    margin: auto;
+   
+    
+}
+
+img{
+    width: 560px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* Color Theme Swatches in Hex */
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-1-hex { color: #729599; }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-2-hex { color: #BCC5CE; }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-3-hex { color: #E6DFD9; }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-4-hex { color: #BFB3A8; }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-5-hex { color: #7A7067; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-1-rgba { color: rgba(114, 149, 153, 1); }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-2-rgba { color: rgba(188, 197, 206, 1); }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-3-rgba { color: rgba(230, 223, 217, 1); }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-4-rgba { color: rgba(191, 179, 168, 1); }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-5-rgba { color: rgba(122, 112, 103, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-1-hsla { color: hsla(186, 16, 52, 1); }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-2-hsla { color: hsla(210, 15, 77, 1); }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-3-hsla { color: hsla(27, 20, 87, 1); }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-4-hsla { color: hsla(28, 15, 70, 1); }
+.color-theme_2f1141ae-b4b4-4232-85e8-36b97477e53c-5-hsla { color: hsla(28, 8, 44, 1); }

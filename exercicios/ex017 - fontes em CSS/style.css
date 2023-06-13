@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Medidas absolutas: cm, mm, in, px, pt, pc 
+
+
+    Medidas Relativas: em, ex, rem, vw, vh,  %
+    16px geralmente = 1em
+    */ 
+
+
+    font-size: 1em;
+    font-weight:bold;
+    font-style: italic;
+    /* lighter, normal, bold, bolder*/ 
+}
+
+h1{
+    font: italic bold 2em Arial, sans-serif;
+    text-align: center;
+    /*shorthand font 
+    ordem: font-style -> font-weight -> font-size -> font-family
+    
+    substituo = 
+    font-size: 1em;
+    font-weight:bold;
+    font-style: italic;
+
+    por uma linha só, exemplo acima
+    */
+}
+
+h2{
+    text-align: right;
+}
+p{
+    font: italic normal 16px Arial, Sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}

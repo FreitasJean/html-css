@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="I"> <!--Types A, a , 1 , I e i (romanos)-->
+        <li>Acordar
+        <li>Tomar cafe
+        <li> Ligar para o João
+        <li>Escovar os dentes
+        <li>Ir para faculdade
+        <li>Almoçar
+        <li>Ir para o Trabalho
+        <li>Voltar para casa
+        <li>Jantar
+        <li>Dormir
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="circle" > <!--types disk, square, circle-->
+        <li>Pao
+        <li>Leite
+        <li>Tomate
+        <li>Escova de dentes
+        <li>Arroz      
+    </ul>
+    <h2>Linguagens favoritas</h2>
+    <ol>
+        <li>Antigas
+            <ol type="a">
+                <li>cliper
+                <li>visualbasic
+                <li>Fortran   
+                <li>Delphi             
+            </ol>
+        <li>Novas
+            <ol type="a" start="5"> <!--Mesmo sendo alfa numero o Star tem o parametro por numero, exemplo acima é o 5°elemento-->
+                <li>PHP
+                <li>Javascript
+                <li>Python
+                <li>Kotlin
+            </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol> 
+        <li>Snes</li>
+        <ul type="square"> <!--Utilizando a tecla Alt , posso editar mais de uma Tag ou palavra pelo html , exemplo : de <ol> para <ul> varias tags de uma vez-->
+            <li>DK2</li>
+            <li>DK3</li>
+            <li>Mask</li>
+            <li>Mario Bros</li>
+            <li>MK</li>
+        </ul>
+        <li>Playstation1</li>
+        <ul type="square">
+            <li>Jackie Chan</li>
+            <li>YU GI OH</li>
+            <li>Harvest Moon</li>
+            <li>Crash</li>
+            <li>Spiderman</li>
+        </ul>
+        <li>Playstation2</li>
+        <ul type="square">
+            <li>GTA San Andreas</li>
+            <li>Devil may cry 3</li>
+            <li>Guitar hero </li>
+            <ul type="circle">
+                <li>Guitar hero 80</li>
+                <li>Guitar hero 3</li>
+            </ul>
+            <li>Crash</li>
+            <li>NFS Most Wanted</li>
+        </ul>
+    </ol>
+
+    <!--
+        Utilizando: Ul>li*(algum numero) ele cria uma lista ja com a quantidade de numeros, tambem podendo adicionar ">a" no final para indicar que cada item da lista tem um link como por exemplo : ul>li*5>a 
+    -->
+    <!--<ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>   
+    </ul>-->
+    <!--
+    Ou tambem utilizar ol>li*3>ul>li*2
+    -->
+    <!--<ol>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+    </ol>-->
+    <h2>Lista de Definição</h2>
+    <dl> <dt> Termo <dd> Descrição
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação para criação de interatividade de um site</dd>
+    </dl>
+</body>
+</html>

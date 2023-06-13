@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+            <style>
+            body {
+            font-family: Arial, Helvetica,
+            sans-serif;
+            background-color:dimgray;
+            margin: 0px;
+            }
+
+            header {
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border: 5px dashed rgba(175, 209, 240, 0.568);
+            border-radius: 10px;
+            }
+            nav{
+                padding: 10px 20px;
+                box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.411);       
+            }
+
+            h1{
+                
+            }
+
+            main{
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            }
+
+            article>aside{
+                background-color: rgb(207, 195, 178);
+            }
+
+            #assuntos{
+               background-color: aliceblue;
+            }
+            
+            #noticias{
+                background-color: antiquewhite;
+            }
+            footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            }
+            footer>p {
+                margin: 0px;
+            }
+        
+            a:hover{
+                color: coral;
+            }
+         
+
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="https://www.instagram.com/jeanfreit4s" target="_blank">Instagram</a><br>
+            <a href="https://www.facebook.com/jean.freitas.58" target="_blank">Facebook</a><br>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assunto sobre alguma coisa</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet minus distinctio corporis consectetur velit? Accusantium quam perspiciatis ratione libero, cum voluptates labore corrupti rem beatae, unde, veritatis nobis. Excepturi, nulla.</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consectetur perferendis odio odit ipsam vitae deleniti ex doloribus nobis, incidunt eaque rem, ea alias provident necessitatibus eligendi voluptatibus culpa debitis.</p>
+                <aside>
+                    <p>Artigo escrito</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Jean Freitas</p>
+    </footer>
+</body>
+</html>

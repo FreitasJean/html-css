@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+ 
+    
+    <style>
+        /*  SELETORES PERSONALIZADOS
+        #  = id
+        .  = classe
+        :  = pseudo-classe
+        :: = pseudo-element
+        >  = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(86, 64, 211);
+            text-decoration: none;
+            font-weight: bold;
+        }
+       a:visited{
+        color: rgb(24, 170, 109);
+       }
+       a:hover{
+         text-decoration: underline;
+         color: rgb(89, 157, 247);
+       }
+
+       a:active{
+        color: rgb(241, 130, 214);
+       }
+
+       .especial::before{
+        content: '→';
+       }
+       .especial::after{
+        content: '←';
+       }
+
+       .especial{
+        background-color: pink;
+       }
+       
+
+       div{
+        background-color: blanchedalmond;
+   
+       }
+       
+       div>ul{
+         display: none;
+         
+
+       }
+
+       div>h2:hover{
+        color: rgb(89, 157, 247);
+        display:block;
+
+       }
+        </style>
+</head>
+<body>
+    <h1>Personalizando Links   </h1>
+   <div>
+    <h2> Menu</h2>
+    <ul>
+        <li><a href="https://www.instagram.com/jeanfreit4s/" class="especial" target="_blank" rel="external" >Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/jean-freitas/" target="_blank" rel="external">LinkedIn</a></li>
+        <li><a href="https://www.facebook.com/jean.freitas.58" target="_blank" rel="external">Facebook</a></li>
+    </ul>
+</div>
+</body>
+</html>
