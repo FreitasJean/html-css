@@ -6,8 +6,11 @@
     <title>Teste de Imagens de fundo</title>
     <style>
 
+body{
+    background-image: url('Imagens/wallpaper003.jpg');
+}
 
-div{
+div.quadrado{
     display: inline-block;
     border: 2px solid black;
     width: 300px;
@@ -15,17 +18,27 @@ div{
     border-radius: 10px;
     background-color: lightcyan;
 }
+
+div#q1{
+background-image: linear-gradient(to right, yellow, red);
+}
+div#q2{
+background-color: rgb(157, 214, 214);
+}
+div#q3{
+background-image: url('Imagens/pattern004.png');
+}
     </style>
 </head>
 <body>
 
-    <div class="quadrado"> 
+    <div class="quadrado" id="q1"> 
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
 </body>
