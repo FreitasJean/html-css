@@ -5,4 +5,4 @@
 
 <a href="https://freitasjean.github.io/projeto-android/" target="_blank"> Primeiro Site  </a>
 
-<a href="https://freitasjean.github.io/Cadastro/" target="_blank" > Site exemplo de cadastro <a>
+<a href="https://freitasjean.github.io/Cadastro/" target="_blank" > Site exemplo de cadastro </a>
