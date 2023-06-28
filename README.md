@@ -7,4 +7,4 @@
 
 <a href="https://freitasjean.github.io/Cadastro/" target="_blank"> Site exemplo de cadastro </a>
 
-<a href="https://freitasjean.github.io/projeto-cordel/" target="_blank">  Site com imagens em parallax </a>
+<a href="https://freitasjean.github.io/projeto-cordel/" target="_blank">  Site com imagens em parallax </a> 
